@@ -1,13 +1,10 @@
 import "./About.css"
-import resumePdf from "./pages/About/Resume.pdf"
 
 function About() {
-    let dir = window.location.href;
     return (
         <div className="about-div">
                 <div className="left-div">
-                    <iframe src={resumePdf} title="PDF" width="800" height="1100" className="pdf"/>
-                    <p>{dir}</p>
+                    <embed src="/projectboard/assets/Resume.pdf" title="PDF" width="800" height="1100" className="pdf"/>
                 </div>
                 <div className="right-div">
                     <div className="top-right-div">
@@ -24,7 +21,6 @@ function About() {
                         </ul>
                     </div>
                 </div>
-                <div className="background-img"/>
         </div>
     );
 }

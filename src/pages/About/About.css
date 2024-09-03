@@ -40,7 +40,7 @@ p {
 }
 
 .background-img {
-    background-image: url("../../assets/image.png");
+    background-image: url("../../images/background.png");
     grid-column: 2;
     grid-row: 2 / 4;
     justify-items: top;
