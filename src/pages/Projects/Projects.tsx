@@ -1,6 +1,7 @@
+import React from "react";
 import "./Projects.css";
 
-export default function Projects() {
+function Projects() {
     return (
         <div className="container">
             <div className="fishing-rod">
@@ -18,3 +19,5 @@ export default function Projects() {
         </div>
     );
 }
+
+export default Projects;

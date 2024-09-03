@@ -27,7 +27,7 @@ p {
 }
 
 .header {
-  background-image: url("/image.png");
+  background-image: url("./assets/image.png");
 }
 
 .navbar-div {

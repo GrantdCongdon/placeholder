@@ -1,12 +1,13 @@
+import React from "react";
 import { Tabs, Tab } from "@mui/material";
 import { useState } from "react";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import "./App.css";
 
-const tabs = {
+const tabs: { [key: string]: React.ComponentType } = {
   "default": About,
-  "calibrate": Projects,
+  "projects": Projects,
 }
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <div className="navbar-div">
         <Tabs className="tabs" centered>
           <Tab label="About" className="navbar-tab" onClick={() => setTab("default")}/>
-          <Tab label="Projects" className="navbar-tab" onClick={() => setTab("calibrate")}/>
+          <Tab label="Projects" className="navbar-tab" onClick={() => setTab("projects")}/>
         </Tabs>
       </div>
       <div className="tab-content">
