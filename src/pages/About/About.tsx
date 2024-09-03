@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="about-div">
                 <div className="left-div">
-                    <embed src="/projectboard/assets/Resume.pdf" title="PDF" width="800" height="1100" className="pdf"/>
+                    <embed src="/projectboard/assets/Resume.pdf" title="PDF" width="800" height="1090" className="pdf"/>
                 </div>
                 <div className="right-div">
                     <div className="top-right-div">
@@ -13,6 +13,7 @@ function About() {
                         <p><b>Email:</b> grantdcongdon@gmail.com</p>
                         <p><b>Education</b>: Purdue University, Goss Scholar</p>
                         <p><b>Major</b>: Electrical Engineering</p>
+                        <p><b>Concentration</b>: Automatic Control</p>
                         <p><b>Graduation Date</b>: May 2027</p>
                         <p><b>Current Position(s)</b>:</p>
                         <ul className="list">

@@ -13,6 +13,7 @@ const tabs: { [key: string]: React.ComponentType } = {
 function App() {
   const [tab, setTab] = useState("default");
   const PageComponent = tabs[tab];
+  // <Tab label="Experiences" className="navbar-tab"/>
   return (
     <main className="content">
       <div className="header">
