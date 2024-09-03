@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="about-div">
                 <div className="left-div">
-                    <embed src="/projectboard/assets/Resume.pdf" title="PDF" width="800" height="1100" className="pdf"/>
+                    <embed src="/assets/Resume.pdf" title="PDF" width="800" height="1100" className="pdf"/>
                 </div>
                 <div className="right-div">
                     <div className="top-right-div">
