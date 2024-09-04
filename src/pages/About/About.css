@@ -7,7 +7,7 @@ p {
     padding-top: 0.5em;
     display: inline-grid;
     grid-template-columns: auto auto; /* Define two columns */
-    grid-template-rows: 1fr 2fr; /* Define two rows */
+    grid-template-rows: 1fr 1.75fr; /* Define two rows */
     gap: 3em;
     justify-items: center;
 }

@@ -2,11 +2,8 @@ img {
     width: 75%;
     height: auto;
     border: 1px solid #000000;
-}
-
-h2 {
-    text-align: center;
-    grid-column: 1 / 3;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
 }
 
 li {
@@ -20,6 +17,12 @@ li {
   justify-content: center;
 }
 
+.project-title-div {
+    text-align: center;
+    grid-column: 1 / 3;
+    background-color: #6b6b6b5a;
+}
+
 .project {
     background-color: #6b6b6b5a !important;
     border: 1px solid transparent !important;
@@ -28,7 +31,7 @@ li {
     margin-top: 2em;
     display: grid;
     gap: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .images {
@@ -56,20 +59,7 @@ li {
     margin-left: 0em;
 }
 
-#top-text {
-    grid-row: 1;
-}
-
-#bottom-text {
-    grid-row: 2;
-}
-
-#upper-img {
-    margin-bottom: 0.5em;
-    grid-row: 1;
-}
-
-#lower-img {
-    margin-top: 0.5em;
-    grid-row: 2;
+.spacer {
+    height: 2em;
+    width: 100%;
 }

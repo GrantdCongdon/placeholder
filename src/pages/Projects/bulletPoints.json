@@ -1,0 +1,55 @@
+{
+    "colton-fishing": {
+        "projectName": "Colton's Fishing Rod",
+        "images": [
+            "/projectboard/assets/fishing-rod.jpg"
+        ],
+        "altText": [
+            "Colton's Fishing Rod"
+        ],
+        "bulletPoints": [
+            "Joined team to improve fishing rod designed for Colton, who has Arthrogryposis Multiforme Congenita (AMC) leading to loss of fine motor control",
+            "Documented team progress as Project Archivist and wrote transition guidelines for future team members",
+            "Debugged the rod's PCB to find and fix issues with the motor driver",
+            "Fabricated custom circuit board to fix nonfunctional aspects of original PCB",
+            "Reported progress, issues, and goals each week to larger engineering team to receive feedback and guidance"
+        ]
+    },
+    "wheelchair": {
+        "projectName": "Motion-Controlled Wheelchair",
+        "images": [
+            "/projectboard/assets/wheelchair.png",
+            "/projectboard/assets/headset.png"
+        ],
+        "altText": [
+            "Motion-Controlled Wheelchair",
+            "Headset"
+        ],
+        "bulletPoints": [
+            "Invented a novel interface to control an electric wheelchair, aiming to provide a navigation solution to individuals with quadriplegia or lower body limitations",
+            "Bridged the gap between traditional electric wheelchairs and brain-controlled mobility devices using current market technology",
+            "Created a multi-channel sensor configuration headset to detect muscle signals and motion data for wheelchair control",
+            "Utilized an Arduino and Inertial Measurement Unit for head tracking and relayed data to Raspberry Pi over BLE",
+            "Rewired electric wheelchair with custom motor controlling system making use of Arduino and PWM",
+            "Programmed an OpenBCI biosensing board to make EMG measurements to monitor neck muscle activity",
+            "Presented publicly at 8 different events and earned the Cleveland Clinic Biomedical Engineering Award"
+        ]
+    },
+    "micromouse": {
+        "projectName": "Micromouse Robot",
+        "images": [
+            "/projectboard/assets/micromouse.png"
+        ],
+        "altText": [
+            "Micromouse Robot"
+        ],
+        "bulletPoints": [
+            "Engineered a small robot to navigate an unknown maze and find the center in the fastest time possible",
+            "Fabricated custom robot frame using 3D printing to shrink size and weight for easier navigation",
+            "Designed custom IR-based distance sensors to measure the distance between the robot and the maze walls",
+            "Wrote a simulation program to test the robot's navigation algorithms before competition",
+            "Programmed the robot using Arduino to navigate the maze and find the center adopting algorithm from simulation",
+            "Competed in the National Robotics Challenge and was nominated for the Honda Innovation Award for the robot's design"
+        ]
+    }
+}
